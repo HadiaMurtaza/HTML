@@ -1,0 +1,359 @@
+body {
+    margin: 0;
+    height: 100%;  
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+  }
+  header{
+    background-color:#596164;
+   
+  }
+ .logo{
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 0.1rem;
+   align-items: center;
+     margin-bottom: 0;
+  
+    
+
+ }
+ .logo p{
+    font-size: 15px;
+    color: #FCBF14;
+    margin-top: 0;
+    padding:  0 64px;
+
+
+ }
+ .container{
+    width: 1400px;
+padding: 10px 10px;
+
+margin: 0 auto;
+
+
+ }
+.logo i{
+   font-size: 50px;
+   color: white;
+  margin-top: 9px;
+   align-items: center;
+  
+ }
+ nav{
+    display: flex;          
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+ .nav-pill{
+    
+    color: black;
+    
+    padding: 10px;
+    gap: 26px;
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+ }
+ .icons{
+  padding: 10px;
+   gap: 5px;
+   font-size: 17px;
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+ }
+   
+ .nav-actions{
+    display: flex;
+    align-items: end;
+    margin: 5px;
+    gap: 22px;
+
+ }
+ 
+ .btn-signup{
+    background-color:#FCBF14;
+    
+    padding: 10px 10px;
+  
+    text-decoration: none;
+    color: black;
+ }
+ img{
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+ }
+ 
+ .col1 {
+   background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
+   height: 100vh;
+   flex: 1;
+
+ }
+ .col2{
+   background-color: #FCBF14;
+   height: 100vh;
+   flex: 0.5;
+
+ }
+ .col3{
+   background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
+   height: 100vh;
+   flex: 2;
+
+ }
+ /*.card{
+   z-index: 1;
+   position: relative;
+   width: 1440px;
+   margin: 0 auto;
+   
+ }*/
+ /*.main{
+   background-image: url("students.jpg");
+   height: 78vh;
+   background-size: cover;
+   background-position: center;
+   position: relative; 
+ }*/
+ .text{
+   display: block;
+   float: left;
+   text-align: left;
+   padding: 50px;
+   margin: 60px;
+   width: 300px;
+   font-size: 20px;
+ }
+ /*footer{
+   position: absolute;        
+   left: 0;
+   right: 0;
+   bottom: 0;                 
+   width: 100%;
+ }
+.endline{
+   display: flex;
+   
+  
+ }
+ .foot2 i{
+   font-size: 20px;
+   color: black;
+
+ }
+ .foot i{
+   font-size: 20px;
+   color: white;
+
+ }
+ .foot h1 p{
+   color: rgb(255, 255, 255);
+ }
+.foot2 h1,p .foot3 h1,p{
+   color: black;
+
+}
+.foot2{
+   background-color: #FCBF14;
+   display: flex;
+   padding: 20px;
+   flex: 0.2;
+  
+}
+.foot3{
+   background-color: #868f96;
+   opacity: 0.3;
+   display: flex;
+   padding: 20px;
+   flex: 0.2;
+}
+.foot{
+   background-color: #596164;
+   display: flex;
+  padding: 20px;
+  flex: 0.2;
+} 
+.links{
+  
+   display: flex;
+  justify-content: center;
+  align-items: center;
+ text-align: center;
+  
+
+}
+.translate a{
+   background-color: transparent;
+   border-radius: 6px;
+   padding: 6px;
+  
+   margin: 10px;
+   
+   font-size: 17px;
+   color: black;
+   border: 1px solid black;
+   
+  
+
+}
+.search a{
+   background-color: transparent;
+   border-radius: 6px;
+   padding: 6px;
+  
+   margin: 10px;
+  
+   font-size: 17px;
+   color: black;
+   border: 1px solid black;
+}
+.block{
+   display: block;
+}
+*/
+/* footer sits on top of the hero image, pinned to its bottom edge */
+footer{                      /* FIXED: was .footer, never matched the <footer> tag */
+   position: absolute;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   width: 100%;
+ }
+ 
+ /* row of 3 admission cards */
+ .endline{
+   display: flex;
+   width: 78%;                /* FIXED: cards no longer span full width; leaves room on the right like the pic */
+ }
+ 
+ .foot, .foot2, .foot3{
+   flex: 1;                   /* FIXED: was 0.2 each — arbitrary and left huge empty gaps */
+   display: flex;
+   align-items: flex-start;
+   gap: 14px;
+   padding: 24px 28px;
+ }
+ 
+ .foot{
+   background-color: rgba(89, 97, 100, 0.92);
+ }
+ .foot i{ font-size: 22px; margin-top: 4px; color: #fff; }
+ .foot h2, .foot p{ color: #fff; }
+ 
+ .foot2{
+   background-color: #FCBF14;
+ }
+ .foot2 i{ font-size: 22px; margin-top: 4px; color: #2b2b2b; }
+ .foot2 h2, .foot2 p{ color: #2b2b2b; }
+ 
+ .foot3{
+   background-color: rgba(255, 255, 255, 0.85);   /* FIXED: replaced opacity:0.3 on the whole block */
+ }
+ .foot3 i{ font-size: 22px; margin-top: 4px; color: #2b2b2b; }
+ .foot3 h2, .foot3 p{ color: #2b2b2b; }
+ 
+ .description h2{
+   margin: 0 0 8px;
+   font-size: 17px;
+ }
+ .description p{
+   margin: 0;
+   font-size: 13px;
+   line-height: 1.6;
+ }
+ 
+ /* Translate | Search pill — floats top-right of the footer strip, matching the pic */
+ .links{
+   position: absolute;
+   right: 24px;
+   top: 24px;                 /* FIXED: no longer squeezed into the flex row full-width */
+   display: flex;
+   gap: 10px;
+   background-color: rgba(255,255,255,0.9);
+   padding: 6px 10px;
+   border-radius: 6px;
+ }
+ 
+ .links a{
+   font-size: 13px;
+   color: #2b2b2b;
+   padding: 6px 12px;
+ }
+ .translate{
+   border-right: 1px solid #ccc;
+ }
+ .search i{
+   margin-left: 4px;
+ }
+ 
+ /* Copyright line — small text, bottom-right corner, matches the pic */
+ .copyright{
+   position: absolute;
+   right: 24px;
+   bottom: 8px;
+ }
+ .copyright p{
+   margin: 0;
+   font-size: 11px;
+   color: rgba(255,255,255,0.8);
+   display: block;
+   width: 186px;
+ }
+ .copyright span{
+   color: #FCBF14;
+ }
+
+
+
+
+section{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;   /* keep as-is */
+  overflow-x: hidden;
+}
+.row{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;                /* CHANGED: make sure it's explicitly full width */
+  height: 100vh;
+  display: flex;
+}
+.card{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 40px;
+  width: 1440px;
+  height: calc(100vh - 40px);  /* CHANGED: matches section height exactly, so card bottom = row bottom, no leftover scroll gap */
+  overflow: hidden;             /* NEW: clips anything that tries to spill past the card */
+  display: flex;                /* NEW */
+  flex-direction: column;  
+  margin-bottom: 20px;     /* NEW: stacks header + main vertically */
+ border: 10px solid #3F3D3E;
+}
+
+header{
+  flex-shrink: 0;               /* NEW: header keeps its natural height, doesn't get squeezed */
+}
+
+.main{
+  flex: 1;                      /* CHANGED: was height: 90vh — now it just fills whatever space is left after the header, instead of fighting the card for space */
+  position: relative;           /* keep this so footer can anchor to it */
+  background-image: url("students.jpg");
+  background-size: cover;
+  background-position: center;
+}

@@ -1,0 +1,362 @@
+body{
+    background-color: #e8e8ea;
+    padding: 20px;
+
+}
+
+
+
+*{
+    box-sizing: border-box;
+}
+.flexx{
+   
+    text-align: center;
+}
+
+
+.container{
+    background-color: white;
+    margin: 0 auto;
+    max-width: 95%;
+    width: 1400px;  
+  
+    padding: 15px;
+    
+    border-radius: 50px;
+    margin-top: 27px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+  
+ 
+    
+}
+.logo{
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    font-size: 20px;
+    display: flex;
+   gap: 20px;
+    
+    align-items: center;
+
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.logo img{
+    width: 25px;
+    height: 25px;
+    margin-top: 8px;
+    margin-left: 5px;
+}
+.navbar{
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.nav-links {
+    align-items: center;
+    display: flex;
+    
+    border-radius: 20px;
+   
+    gap: 4px;
+    
+}
+.open{
+    background-color: rgb(134, 179, 45);
+    padding: 2px 8px;
+    border-radius: 20px;
+    display: flex;
+   align-items: center;
+
+ 
+    
+}
+
+.nav-links a{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 2px 8px;
+    border-radius: 20px;
+    background-color:#e8e8ea;  
+    padding-left: 2px;
+}
+.arrow{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    gap: 0;
+
+}
+.nav-links svg{
+    background-color: white;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 25px;
+    height: 25px;
+    flex-shrink: 0;
+    padding: 3px;
+
+}
+.side{
+    display: flex;
+}
+
+section .row {
+   
+    margin: 0 auto;
+    max-width: 95%;
+    width: 1400px;   
+    margin: 0 auto;
+    gap: 5px;
+    
+    border-radius: 50px;
+    margin-top: 27px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    display: flex;
+    align-items: stretch; 
+  
+}
+.col1{
+
+    flex: 1;
+    background-color: white;
+    border-radius: 50px;
+    padding-left: 30px;
+    padding-right:60px ;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+   
+
+}
+.col1 h1{
+    font-size: 60px;
+    justify-content: left;
+    font-family: sans-serif;
+}
+.col1 p{
+    color: #7a7d85;
+
+}
+.col2{
+  
+    flex: 1;
+}
+.col2 img{
+    border-radius: 50px ;
+    width: 100%;          
+    height: 100%;  
+    object-fit: cover;
+    
+}
+.text h1{
+    font-size: 43px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.text p{
+    text-align: left;
+    padding-left: 170px;
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 18px;
+}
+.text{
+   
+    display: flex;
+}
+.avatarr{
+    
+    margin-left: auto;
+    margin-top: 30px;
+}
+.avatarr img{
+  
+    margin-left: -18px;      
+    position: relative;
+}
+
+p{
+    color: #7a7d85;
+    
+
+}
+.row2{
+    margin: 0 auto;
+    
+    gap: 5px;
+    max-width: 95%;
+    width: 1400px;   
+    margin: 0 auto;
+    
+    margin-top: 27px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    display: flex;
+    align-items: stretch; 
+  
+}
+.card1,.card2,.card3{
+    
+    flex: 1;
+    background-color: white;
+    border-radius: 50px;
+    padding: 30px;
+    padding-top: 0px;
+    
+   
+    
+
+}
+.card1 .card-header{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.card1 .list .con1,.con2,.con3{
+    background-color: #e8e8ea;
+margin: 0;
+   
+    padding: 8px;
+  
+    border-radius: 50px;
+    margin-top: 27px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+
+}
+.con1,.con2,.con3 {
+    
+    display: flex;
+    gap: 5px;
+}
+.card1 h1{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+
+}
+.card1 p{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    
+}
+.con3{
+
+
+    opacity: 0.2;
+}
+.card1 ,.card2, .card3  {
+    height: 300px;       
+   
+   overflow: hidden;
+   
+    position: relative;
+}
+
+.avatar{
+   
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.info{
+    flex: 1;
+    min-width: 0;
+    gap: 4px;
+}
+.btn{
+    background-color: rgb(255, 255, 255);
+    vertical-align: middle;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    gap: 5px;
+    font-size: 13px;
+    color: #111;
+    margin-top: 6px;
+}
+.card2 .pic{
+    border-radius: 24px;
+    width: 300px;
+    height: 200px;
+    padding: 0;
+    margin: 0 0 15px 0; 
+}
+.card2 .pic img{
+    object-fit: cover;
+    
+    width: 350px;
+    height: 200px;
+    
+    display: block;
+}
+
+.card3 h1,h2{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 8px;
+    margin: 0;
+  
+   
+}
+.card3 h2{
+    font-size: 13px;
+    
+    
+}
+.card3 img{
+  
+   object-fit: cover;
+    padding: 4px;
+    width: 350px;
+    height: 200px;
+
+}
+
+.arrow-box{
+   
+    display: flex;
+}
+.col1 .open{
+   
+font-size: 30px;
+
+padding-top: 0px;
+    padding-bottom: 4px;
+    padding-left: 9px;
+    padding-right: 9px;
+
+
+
+}
+.col1 .arrow{
+    
+width: 50px;
+    height: 50px;
+
+
+}

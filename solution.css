@@ -1,0 +1,321 @@
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box
+}
+
+.nav-bar {
+
+    gap: 200px;
+    padding: 15px;
+    background-color: #EBFDFE;
+    display: flex;
+    align-items: center;
+  
+}
+
+.brand {
+   padding-left: 16px;
+    color: rgb(9, 9, 9);
+    font-size: 17px;
+    letter-spacing: 3px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+}
+
+.nav-list ul li {
+    list-style: none;
+    
+    display: inline-flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 22px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 50px;
+}
+ a {
+    color:#496E85 ;
+    text-decoration: none;
+
+    
+}
+.one p{
+    color:#496E85 ;
+    font-size: 25px;
+
+}
+.one{
+    color: #073653;
+    background-color: #EBFDFE ;
+    padding: 90px;
+    text-align: left;
+    font-size: 35px;    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.next{
+    margin-top: auto;
+    text-decoration: underline;
+}
+.one img{
+    float: right;
+    padding: 40px;
+
+}
+.two{
+    color: #073653;
+    padding: 90px;
+    text-align: left;
+    font-size: 35px;    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.two p,.five p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: #807f7d;
+    padding: 10px;
+    word-spacing: 5px;
+
+}
+.btn{
+    color: #1bc1b3;
+    padding: 20px;
+    letter-spacing: 2px;
+    font-size: 24px;
+    border: 1px solid #2ac6b9;
+    border-radius: 50px;
+    background-color: transparent;
+}
+.col2 .card1,.card2,.card3{
+    display: block;
+    padding: 17px;
+    border: 1px solid #EEEEEE;
+    background-color: #F8F8F8;
+    font-size: 16px;
+    margin: 9px;
+    float: right;
+    width: 50%;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.col2 p{
+    font-size: 18px;
+    text-transform: capitalize;
+    line-height: 30px;
+   
+   
+    
+}
+.col2 h1{
+    padding: 10px;
+}
+
+
+.cards,.main-card{
+    display: flex;
+    
+    
+  justify-content: center;
+ 
+
+
+}
+.box1,.box2,.box3,.box4,.first-card,.second-card,.third-card{
+    margin: 20px;
+    padding: 70px;
+    background-color: #F8F8F8;
+    line-height: 30px;
+    flex: 0.2;
+    display: block;
+}
+.first-card,.second-card,.third-card{
+    padding: 0;
+}
+.cards i{
+    font-size: 100px;
+    color: #073653;
+}
+.cards h2{
+    color: #073653;
+}
+.cards p{
+    color: #807f7d;
+}
+.more{
+    display: block;
+    padding: 23px;
+    margin: 40px auto;
+   text-align: center;
+    background-color: #073653;
+    color: #EBFDFE;
+    border-radius: 50px;
+    font-size: 22px;
+    
+    border: none;
+    
+}
+.three h1,.four h1,.five h1{
+    color: #073653;
+    font-size: 50px;    
+    letter-spacing: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: 30px;
+    margin: 90px;
+}
+.four img{
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+}
+.row{
+    display: flex;
+}
+.client1,.client2, .client3{
+   
+    padding: 10px;
+    border: 1px solid #EEEEEE;
+    background-color: #F8F8F8;
+   gap: 2px;
+    margin:0 auto;
+    width: 25%;
+    display: flex;
+   
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text{
+    padding: 70px;
+}
+.avatar{
+    display: flex;
+    vertical-align: middle;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.client1 h1 ,.client2 h1, .client3 h1,.text1 h1,.text2 h1,.text3 h1{
+    font-size: 20px;
+    padding: 15px;
+    padding-bottom: 0;
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+.tank{
+    display: block;
+}
+.row p,.textarea p{
+    padding-top: 1px;
+    font-size: 15px;
+    padding: 15px;
+}
+.text1,.text2,.text3{
+   
+    padding: 10px;
+    border: none;
+   
+
+    margin:0 auto;
+    width: 25%;
+ 
+   
+}
+.textarea{
+    display: flex;
+}
+.six{
+    margin-top: 200px;
+    display: flex;
+   margin-bottom: 200px;
+}
+.side1{
+    margin-left: 200px;
+    font-size: 30px;
+    color: #073653;
+    background-color: #F8F8F8;
+    width: 700px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+  height: 700px;
+  margin-top: 100px;
+  margin-bottom: 200px
+
+  
+}
+.side1 p{
+    font-size: 20px ;
+    
+}
+.side2{
+    margin-right: 200px;
+    background-color: #55c2c8;
+    color: white;
+    height: 900px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: block;
+    padding: 100px;
+    font-size: 30px;
+    line-height: 80px;
+    
+}
+.moree{
+    display: block;
+    padding: 23px;
+    margin: 40px auto;
+   text-align: center;
+    background-color:white;
+    color:  #55c2c8;
+    border-radius: 50px;
+    font-size: 22px;
+    margin-top: 100px;
+    border: none;
+    
+}
+.seven{
+    color: #073653;
+    background-color: #F8F8F8 ;
+    padding: 50px;
+    display: flex;
+    
+}
+.column1,.column2,.column3,.column4{
+    display: block;
+    margin: 50px;
+    font-size: 17px;
+    line-height: 50px;
+}
+.links ul {
+    list-style: none;
+padding-left: 0;
+padding-right: 40px;
+} 
+footer{
+    color: white;
+    background-color: #073653;
+    display: flex;
+    padding: 21px;
+    justify-content: space-between;
+    align-items: center;
+}
+.first{                /* make sure this matches the HTML class exactly */
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.iconn{
+    display: flex;
+    gap: 16px;
+}
+
+.end a{
+    color: white;
+    text-decoration: underline;
+}
